@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 71,
+  "bottomRow": 63,
   "boxShadow": "none",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 620,
+      "bottomRow": 630,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -42,70 +42,22 @@
       "mobileRightColumn": 475.5,
       "mobileTopRow": 0,
       "parentColumnSpace": 1,
-      "parentId": "8voawvc8hu",
+      "parentId": "hma5a1vcv7",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
       "rightColumn": 475.5,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Sign In",
+      "tabName": "DangNhap",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "8rq3ao3yqz",
+      "widgetId": "ciddfndrsb",
       "widgetName": "Canvas2"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 620,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": true,
-      "detachFromLayout": true,
-      "displayName": "Canvas",
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "FIXED",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "hideCard": true,
-      "isDeprecated": false,
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "kzmnt00z2j",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 150,
-      "minWidth": 450,
-      "mobileBottomRow": 150,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 475.5,
-      "mobileTopRow": 0,
-      "parentColumnSpace": 1,
-      "parentId": "8voawvc8hu",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 475.5,
-      "shouldScrollContents": false,
-      "tabId": "tab2",
-      "tabName": "Sign Up",
-      "topRow": 0,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "f5yn1hxqze",
-      "widgetName": "Canvas3"
     }
   ],
-  "defaultTab": "Sign Up",
+  "defaultTab": "DangNhap",
   "displayName": "Tabs",
   "dynamicBindingPathList": [
     {
@@ -133,10 +85,10 @@
   "mobileLeftColumn": 37,
   "mobileRightColumn": 61,
   "mobileTopRow": 92,
-  "originalBottomRow": 72,
-  "originalTopRow": 9,
+  "originalBottomRow": 63,
+  "originalTopRow": 0,
   "parentColumnSpace": 19.8125,
-  "parentId": "oupq4ybxxj",
+  "parentId": "jbjaqan01e",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -147,26 +99,19 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Sign In",
+      "label": "DangNhap",
       "positioning": "vertical",
-      "widgetId": "8rq3ao3yqz"
-    },
-    "tab2": {
-      "id": "tab2",
-      "index": 1,
-      "isVisible": true,
-      "label": "Sign Up",
-      "positioning": "vertical",
-      "widgetId": "f5yn1hxqze"
+      "widgetId": "ciddfndrsb"
     }
   },
   "tags": [
     "Layout"
   ],
-  "topRow": 9,
+  "topRow": 0,
   "type": "TABS_WIDGET",
   "version": 3,
-  "widgetId": "8voawvc8hu",
+  "widgetId": "hma5a1vcv7",
   "widgetName": "tab_auth"
 }

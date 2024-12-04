@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 17,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,35 +12,35 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "Open Sans",
   "fontSize": "1.875rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
   "key": "tcimoejkol",
-  "leftColumn": 7,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
   "parentColumnSpace": 18.1875,
-  "parentId": "f5yn1hxqze",
+  "parentId": "ciddfndrsb",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 56,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Register",
+  "text": "Đăng Nhập",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 0,
+  "topRow": 12,
   "truncateButtonColor": "#FFC13D",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "sar3p8uzae",
-  "widgetName": "txt_register"
+  "widgetId": "5udm9tf46n",
+  "widgetName": "tieude"
 }

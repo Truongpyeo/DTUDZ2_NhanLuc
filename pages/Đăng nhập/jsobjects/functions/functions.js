@@ -1,47 +1,36 @@
 export default {
+	generatePasswordHash: async () => {
+		var password_hash = dcodeIO.bcrypt.hashSync(input_pass.text, 10);
+		console.log(password_hash);
+		return password_hash;
+	},
 
-	// defaultTab: 'Sign In',
-// 
-	// setDefaultTab: (newTab) => {
-		// this.defaultTab = newTab;
-	// },
-// 
-	// generatePasswordHash: async () => {
-		// return dcodeIO.bcrypt.hashSync(inp_registerPassword.text, 10);
-	// },
-// 
-	// verifyHash: async (password, hash) => {
-		// return dcodeIO.bcrypt.compareSync(password, hash)
-	// },
-// 
-	// createToken: async (user) => {
-		// return jsonwebtoken.sign(user, 'secret', {expiresIn: 60*60});
-	// },
-// 
-	// signIn: async () => {
-		// const password = inp_password.text;
-// 
-		// const [user] = await findUserByEmail.run();
-// 
-		// if (user && this.verifyHash(password, user?.password_hash)) {
-			// storeValue('token', await this.createToken(user))
-				// .then(() => updateLogin.run({
-				// id: user.id
-			// }))
-				// .then(() => showAlert('Register Success', 'success'))
-		// } else {
-			// return showAlert('Invalid emaill/password combination', 'error');
-		// }
-	// },
-// 
-	// register: async () => {
-		// const passwordHash = await this.generatePasswordHash();
-		// const [user] = await createUser.run({passwordHash});
-		// if (user) {
-			// storeValue('token', await this.createToken(user))
-			// showAlert('Register Success', 'success');
-		// } else {
-			// return showAlert('Error creating new user', 'error');
-		// }
-	// },
+	createToken: async (user) => {
+		var token = jsonwebtoken.sign(user, 'secret');
+		await storeValue("tokenAdmin", token);
+		// await storeValue("id_admin", 11111);
+		return token;
+	},
+
+	comparePassword: async (password, hash) => {
+		return dcodeIO.bcrypt.compareSync(password, hash)
+	},
+
+	actionLogin: async () => {
+		try{
+			const [user] = await finNhanLucs.run();
+			var check = await this.comparePassword(input_pass.text, user.password);
+			storeValue("id_nhan_luc", user.id);
+			if(check) {
+				// user.token = await this.createToken(user)
+				// .then( async () => await UpdateToken.run(user));
+				showAlert("Đăng nhập thành công", "success");
+				navigateTo('Thông tin cứu trợ');
+			} else {
+				showAlert("Email hoặc mật khẩu không đúng", "error");
+			}
+		}catch(error){
+			showAlert("Email hoặc mật khẩu không đúng", "error");
+		}
+	},
 }

@@ -1,17 +1,14 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 44,
+  "borderRadius": "1.5rem",
+  "bottomRow": 50,
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -25,12 +22,12 @@
   "isLoading": false,
   "isVisible": true,
   "key": "d80868s2dr",
-  "leftColumn": 2,
-  "onClick": "",
-  "originalBottomRow": 46,
-  "originalTopRow": 40,
+  "leftColumn": 7,
+  "onClick": "{{finNhanLucs.run().then(() => {\n  functions.actionLogin();\n});}}",
+  "originalBottomRow": 50,
+  "originalTopRow": 44,
   "parentColumnSpace": 18.1875,
-  "parentId": "8rq3ao3yqz",
+  "parentId": "ciddfndrsb",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -41,10 +38,10 @@
     "click",
     "submit"
   ],
-  "text": "SIGN IN",
-  "topRow": 38,
+  "text": "ĐĂNG NHẬP",
+  "topRow": 44,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "voz3dh2wjt",
+  "widgetId": "d9bekz4l5x",
   "widgetName": "btn_signIn"
 }
