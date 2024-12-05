@@ -1,10 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
@@ -15,7 +18,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "Inter",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
@@ -31,22 +34,22 @@
   "mobileTopRow": 5,
   "needsErrorInfo": false,
   "originalBottomRow": 12,
-  "originalTopRow": 8,
+  "originalTopRow": 5,
   "overflow": "NONE",
   "parentColumnSpace": 5.123952746391296,
-  "parentId": "o3nu8setua",
+  "parentId": "2p10t6308m",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "shouldTruncate": false,
-  "text": "{{currentItem.ho_va_ten}}",
+  "text": "{{currentItem.dia_chi_sos}}",
   "textAlign": "LEFT",
-  "textColor": "#18181b",
-  "topRow": 9,
+  "textColor": "#ef4444",
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "wnzh4zneyd",
-  "widgetName": "txt_phutCopy"
+  "widgetId": "3hbw9vk9dn",
+  "widgetName": "txt_diaChi"
 }
