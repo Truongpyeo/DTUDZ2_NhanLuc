@@ -3,13 +3,13 @@
   "backgroundColor": "#ffffff",
   "borderColor": "#ffffff",
   "borderRadius": "0px",
-  "borderWidth": "1",
+  "borderWidth": "",
   "bottomRow": 70,
   "boxShadow": "none",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 500,
+      "bottomRow": 490,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
