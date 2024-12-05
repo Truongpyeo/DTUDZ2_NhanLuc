@@ -7,7 +7,7 @@ export default {
 
 	createToken: async (user) => {
 		var token = jsonwebtoken.sign(user, 'secret');
-		await storeValue("tokenAdmin", token);
+		await storeValue("token_nhan_su", token);
 		// await storeValue("id_admin", 11111);
 		return token;
 	},
