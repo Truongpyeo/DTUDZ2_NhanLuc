@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 22,
   "shouldTruncate": false,
-  "text": "0905666999",
+  "text": "{{currentItem.so_dien_thoai}}",
   "textAlign": "LEFT",
   "textColor": "#ef4444",
   "topRow": 12,

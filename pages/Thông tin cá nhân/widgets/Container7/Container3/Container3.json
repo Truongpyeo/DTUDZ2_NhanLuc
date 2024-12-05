@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#dcfce7",
-  "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": "1",
-  "bottomRow": 21,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "backgroundColor": "#ffffff",
+  "borderColor": "#ffffff",
+  "borderRadius": "0px",
+  "borderWidth": "",
+  "bottomRow": 87,
+  "boxShadow": "none",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 210,
+      "bottomRow": 660,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "kmfsqq4q8v",
+      "parentId": "xiyzthdjxf",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,20 +46,13 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "skvcqvy4gb",
-      "widgetName": "Canvas2"
+      "widgetId": "7ksgx8ndbm",
+      "widgetName": "Canvas3"
     }
   ],
   "containerStyle": "card",
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
-    }
-  ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
@@ -71,22 +64,22 @@
   "minDynamicHeight": 10,
   "minWidth": 450,
   "mobileBottomRow": 10,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 24,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 45,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 21,
-  "originalTopRow": 0,
+  "originalBottomRow": 87,
+  "originalTopRow": 21,
   "parentColumnSpace": 6.53125,
-  "parentId": "3om6iuhxkb",
+  "parentId": "i9815wpopm",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 0,
+  "topRow": 21,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "kmfsqq4q8v",
-  "widgetName": "Container2"
+  "widgetId": "xiyzthdjxf",
+  "widgetName": "Container3"
 }

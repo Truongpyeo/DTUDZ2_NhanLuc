@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Xin chào {{appsmith.user.name || appsmith.user.email}}",
+  "text": "Xin chào {{findUser.data[0].ten_nhan_luc || appsmith.user.email}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 11,

@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "Nguyễn Văn A",
+  "text": "{{currentItem.ho_va_ten}}",
   "textAlign": "LEFT",
   "textColor": "#3f3f46",
   "topRow": 0,

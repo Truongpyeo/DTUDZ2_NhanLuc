@@ -1,16 +1,16 @@
 {
   "accentColor": "#231f20",
   "animateLoading": true,
-  "backgroundColor": "#dcfce7",
+  "backgroundColor": "#f4f4f5",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 46,
+  "bottomRow": 55,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 420,
+      "bottomRow": 510,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 420,
+      "bottomRow": 510,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -101,7 +101,7 @@
       "widgetName": "Canvas5"
     }
   ],
-  "defaultTab": "Thông tin cứu trợ",
+  "defaultTab": "Thông tin cơ bản",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -110,7 +110,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
@@ -126,14 +126,12 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 46,
-  "originalTopRow": 0,
   "parentColumnSpace": 6.21875,
   "parentId": "7ksgx8ndbm",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 61,
+  "rightColumn": 64,
   "shouldScrollContents": true,
   "shouldShowTabs": true,
   "tabsObj": {

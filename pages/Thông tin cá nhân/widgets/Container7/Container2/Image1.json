@@ -1,14 +1,10 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "1.5rem",
   "bottomRow": 10,
   "boxShadow": "none",
   "defaultImage": "https://th.bing.com/th/id/OIP.t_lAMyyUCiTGuN8CrwYDngHaHa?rs=1&pid=ImgDetMain",
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
@@ -25,7 +21,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "objectFit": "cover",
+  "objectFit": "contain",
   "parentColumnSpace": 1.728515625,
   "parentId": "skvcqvy4gb",
   "parentRowSpace": 10,

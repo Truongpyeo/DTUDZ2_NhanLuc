@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_acc039fe-f4fc-460f-a97e-3effa2dc1c46",
-  "id": "Cứu trợ khẩn cấp_getDataThongBaos",
+  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_0da845dd-7fe8-47a0-bce2-afdcc874ab71",
+  "id": "Thông tin cá nhân_UpdateUser",
   "pluginId": "mongo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -16,10 +16,10 @@
           }
         },
         "collection": {
-          "data": "thong_baos"
+          "data": "nhan_lucs"
         },
         "command": {
-          "data": "FIND"
+          "data": "UPDATE"
         },
         "count": {
           "query": {
@@ -50,7 +50,7 @@
             "data": ""
           },
           "query": {
-            "data": "{\n\tis_open: true\n}"
+            "data": ""
           },
           "skip": {
             "data": ""
@@ -66,7 +66,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"thong_baos\",\n  \"filter\": {\n\tis_open: true\n},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"update\": \"nhan_lucs\",\n  \"updates\": [{\n    \"q\": {\n  \"id\": {{appsmith.store.id_nhan_luc}}\n}\n,\n    \"u\": {\n\t\"$set\": {{JSONForm1.formData}}\n},\n    \"multi\": false,\n  }]\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -78,10 +78,10 @@
             "data": "SINGLE"
           },
           "query": {
-            "data": ""
+            "data": "{\n  \"id\": {{appsmith.store.id_nhan_luc}}\n}\n"
           },
           "update": {
-            "data": ""
+            "data": "{\n\t\"$set\": {{JSONForm1.formData}}\n}"
           }
         }
       },
@@ -95,10 +95,17 @@
       "name": "Resue_alert",
       "pluginId": "mongo-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.updateMany.query.data"
+      },
+      {
+        "key": "formData.updateMany.update.data"
+      }
+    ],
     "executeOnLoad": false,
-    "name": "getDataThongBaos",
-    "pageId": "Cứu trợ khẩn cấp",
+    "name": "UpdateUser",
+    "pageId": "Thông tin cá nhân",
     "userSetOnLoad": false
   }
 }

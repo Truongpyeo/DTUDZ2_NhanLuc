@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_acc039fe-f4fc-460f-a97e-3effa2dc1c46",
-  "id": "Cứu trợ khẩn cấp_getDataThongBaos",
+  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_cc7b6b46-573b-41c9-8229-d2bfbaf92dee",
+  "id": "Thông tin cá nhân_getNhataitros",
   "pluginId": "mongo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
           }
         },
         "collection": {
-          "data": "thong_baos"
+          "data": "nguon_lucs"
         },
         "command": {
           "data": "FIND"
@@ -50,7 +50,7 @@
             "data": ""
           },
           "query": {
-            "data": "{\n\tis_open: true\n}"
+            "data": ""
           },
           "skip": {
             "data": ""
@@ -66,7 +66,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"thong_baos\",\n  \"filter\": {\n\tis_open: true\n},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"find\": \"nguon_lucs\",\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -96,9 +96,9 @@
       "pluginId": "mongo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
-    "name": "getDataThongBaos",
-    "pageId": "Cứu trợ khẩn cấp",
+    "executeOnLoad": true,
+    "name": "getNhataitros",
+    "pageId": "Thông tin cá nhân",
     "userSetOnLoad": false
   }
 }

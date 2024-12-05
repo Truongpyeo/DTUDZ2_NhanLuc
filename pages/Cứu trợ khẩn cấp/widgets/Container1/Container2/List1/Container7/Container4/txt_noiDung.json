@@ -8,9 +8,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +37,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldTruncate": false,
-  "text": "{{currentItem.is_sos===true?\"CẦN CỨU TRỢ KHẨN CẤP\" : \"CẦN TRỢ CẤP\"}}",
+  "text": "CẦN CỨU TRỢ KHẨN CẤP",
   "textAlign": "LEFT",
   "textColor": "#ef4444",
   "topRow": 0,
