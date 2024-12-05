@@ -37,7 +37,7 @@
   "mobileTopRow": 6,
   "needsErrorInfo": false,
   "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
-  "originalBottomRow": 14,
+  "originalBottomRow": 13,
   "originalTopRow": 5,
   "parentColumnSpace": 6.3173828125,
   "parentId": "meed6m5pye",
