@@ -61,12 +61,12 @@
         },
         "insert": {
           "documents": {
-            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"id_thong_tin_cuu_tro\": \"{{List1.selectedItem.id}}\",\n\t\"id_nhan_luc\": \"{{appsmith.store.id_nhan_luc}}\",\n\t\"trang_thai\": \"Đã Tiếp Nhận\",\n\t\"so_nguoi\": 5\n}"
+            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"id_thong_tin_cuu_tro\": \"{{List1.selectedItem.id}}\",\n\t\"id_nhan_luc\": \"{{appsmith.store.id_nhan_luc}}\",\n\t\"trang_thai\": \"Đã Tiếp Nhận\",\n\t\"so_nguoi\": 5,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}"
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"nhan_cuu_tros\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"id_thong_tin_cuu_tro\": \"{{List1.selectedItem.id}}\",\n\t\"id_nhan_luc\": \"{{appsmith.store.id_nhan_luc}}\",\n\t\"trang_thai\": \"Đã Tiếp Nhận\",\n\t\"so_nguoi\": 5\n}\n}\n",
+            "data": "{\n  \"insert\": \"nhan_cuu_tros\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"id_thong_tin_cuu_tro\": \"{{List1.selectedItem.id}}\",\n\t\"id_nhan_luc\": \"{{appsmith.store.id_nhan_luc}}\",\n\t\"trang_thai\": \"Đã Tiếp Nhận\",\n\t\"so_nguoi\": 5,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}\n}\n",
             "status": "SUCCESS"
           }
         },

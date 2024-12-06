@@ -50,7 +50,7 @@
             "data": ""
           },
           "query": {
-            "data": ""
+            "data": "{'email' : {{input_email.text}}}"
           },
           "skip": {
             "data": ""
@@ -66,7 +66,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"nhan_lucs\",\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"find\": \"nhan_lucs\",\n  \"filter\": {'email' : {{input_email.text}}},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -95,7 +95,11 @@
       "name": "Resue_alert",
       "pluginId": "mongo-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.find.query.data"
+      }
+    ],
     "executeOnLoad": false,
     "name": "finNhanLucs",
     "pageId": "Đăng nhập",

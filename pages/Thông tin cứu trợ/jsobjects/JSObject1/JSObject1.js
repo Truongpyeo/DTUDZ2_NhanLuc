@@ -9,17 +9,23 @@ export default {
 		}
 	},
 	createNhanCuuTro:async ()=>{
+		
 		const user = await findUser.data;
-		if(user.is_san_san === true){
+		console.log(user);
+		const createdAt = new Date();
+		if(user.is_san_san = true){
 			const uuid = UUID.genV4();
-			await inseCuuTro.run({id:uuid.hexNoDelim});
+			await inseCuuTro.run({
+				id: uuid.hexNoDelim,
+				created_at: createdAt, 
+			});
 			await changeTTCN_False.run();
 			await changeNL_False.run();
 			await getDataYeuCau.run();
 			showAlert("Đã gửi yêu cầu thành công!", "success");
 		}
 		else{
-				showAlert("Bạn đã được điều phối không được tiếp nhận nữa!", "error");
+			showAlert("Bạn đã được điều phối không được tiếp nhận nữa!", "error");
 		}
 	}
 

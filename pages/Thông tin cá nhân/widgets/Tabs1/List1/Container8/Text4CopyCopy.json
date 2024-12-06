@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 13,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "Đã đóng góp 10kg gạo",
+  "text": "Đã {{currentItem.is_sos=== true ? \"Cứu trợ\":\"Viện trợ\" }} {{currentItem.ho_va_ten_sos || currentItem.ho_va_ten_nguoi_dung }} với nội dung: {{currentItem.noi_dung}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 4,
