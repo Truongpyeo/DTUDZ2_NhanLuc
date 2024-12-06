@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -23,33 +20,33 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "svclf4n9nx",
-  "leftColumn": 0,
+  "key": "scpfl50qy3",
+  "leftColumn": 4,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 23,
-  "mobileRightColumn": 39,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
+  "originalBottomRow": 13,
+  "originalTopRow": 9,
   "overflow": "NONE",
-  "parentColumnSpace": 5.29754638671875,
-  "parentId": "rdgjyhmrgd",
+  "parentColumnSpace": 5.133514404296875,
+  "parentId": "uridzm4ewx",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "{{currentItem.dia_chi}}",
+  "text": "Đã đóng góp 10kg gạo",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 9,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ftmdyeknmo",
-  "widgetName": "txt_diaChi"
+  "widgetId": "kiivtl42dh",
+  "widgetName": "Text4CopyCopy"
 }
