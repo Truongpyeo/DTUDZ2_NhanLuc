@@ -9,12 +9,12 @@
   "animateLoading": true,
   "backgroundColor": "transparent",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 119,
-  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "bottomRow": 83,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 650,
+      "bottomRow": 290,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -59,7 +59,7 @@
     }
   ],
   "currentItemsView": "{{[]}}",
-  "defaultSelectedItem": "{{getDataYeuCau.data[0].id}}",
+  "defaultSelectedItem": "{{getDataYeuCau.data[0].id || 1}}",
   "dynamicBindingPathList": [
     {
       "key": "currentItemsView"
@@ -113,9 +113,9 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onItemClick": "{{}}",
-  "originalBottomRow": 119,
+  "originalBottomRow": 83,
   "originalTopRow": 54,
-  "pageSize": 3,
+  "pageSize": 1,
   "parentColumnSpace": 6.11181640625,
   "parentId": "0",
   "parentRowSpace": 10,

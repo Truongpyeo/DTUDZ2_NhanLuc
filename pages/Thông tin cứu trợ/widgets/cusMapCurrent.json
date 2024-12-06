@@ -1,20 +1,14 @@
 {
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "borderWidth": "1",
   "bottomRow": 54,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "defaultModel": "{{\n{\"location\":  {\n\t\t\t\"lat\": List1.selectedItem.toa_do_x,\n\t\t\t\"lng\": List1.selectedItem.toa_do_y,\n\t\t\t\"title\": List1.selectedItem.ten_sos ,\n\t\t\t\"location\": List1.selectedItem.noi_dung \n\t\t}  ||  {},\n\t\"map\" : JSObject1.getCurrentLoction.data\n}\n}}",
   "dynamicBindingPathList": [
     {
       "key": "theme"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     },
     {
       "key": "defaultModel"
