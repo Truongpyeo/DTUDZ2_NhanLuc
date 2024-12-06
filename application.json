@@ -40,11 +40,11 @@
     },
     {
       "id": "Thông tin cá nhân",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Cứu trợ khẩn cấp",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Thông tin cứu trợ",

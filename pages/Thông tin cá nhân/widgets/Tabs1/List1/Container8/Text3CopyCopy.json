@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "shouldTruncate": false,
-  "text": "18-12-2024",
+  "text": "{{moment(currentItem.created_at).format('HH:mm DD/MM/YYYY')}}",
   "textAlign": "LEFT",
   "textColor": "#71717a",
   "topRow": 0,

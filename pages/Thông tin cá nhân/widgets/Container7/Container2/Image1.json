@@ -21,7 +21,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "objectFit": "contain",
+  "objectFit": "cover",
   "parentColumnSpace": 1.728515625,
   "parentId": "skvcqvy4gb",
   "parentRowSpace": 10,

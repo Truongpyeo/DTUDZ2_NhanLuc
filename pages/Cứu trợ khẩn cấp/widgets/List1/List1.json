@@ -59,7 +59,7 @@
     }
   ],
   "currentItemsView": "{{[]}}",
-  "defaultSelectedItem": "",
+  "defaultSelectedItem": "{{getYeuCau.data[0].id}}",
   "dynamicBindingPathList": [
     {
       "key": "currentItemsView"
@@ -81,6 +81,9 @@
     },
     {
       "key": "listData"
+    },
+    {
+      "key": "defaultSelectedItem"
     }
   ],
   "dynamicPropertyPathList": [

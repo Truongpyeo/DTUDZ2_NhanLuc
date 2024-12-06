@@ -29,7 +29,7 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{JSObject1.createNhanCuuTro();}}",
+  "onClick": "{{showModal(Modal1Copy.name);}}",
   "parentColumnSpace": 5.302197098731995,
   "parentId": "2p10t6308m",
   "parentRowSpace": 10,

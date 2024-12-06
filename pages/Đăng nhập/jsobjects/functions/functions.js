@@ -5,13 +5,22 @@ export default {
 		return password_hash;
 	},
 
+
 	createToken: async (user) => {
 		var token = jsonwebtoken.sign(user, 'secret');
 		await storeValue("token_nhan_su", token);
 		// await storeValue("id_admin", 11111);
 		return token;
 	},
+	async checkLogin () {
+		var check = appsmith.store.id_nhan_luc;
+		console.log(check);
+		if(check){
+			showAlert("Bạn đã đăng nhập","success");
+			navigateTo('Thông tin cá nhân');
+		}
 
+	},
 	comparePassword: async (password, hash) => {
 		return dcodeIO.bcrypt.compareSync(password, hash)
 	},
