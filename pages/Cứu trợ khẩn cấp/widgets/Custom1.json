@@ -3,9 +3,9 @@
   "borderColor": "#f4f4f5",
   "borderRadius": "0px",
   "borderWidth": "0",
-  "bottomRow": 13,
+  "bottomRow": 11,
   "boxShadow": "none",
-  "defaultModel": "{{ \n\n{\n\tdataTBs: getDataYeuCau.data\n}\n\n}}",
+  "defaultModel": "{{ \n\n{\n\tdataTBs: getYeuCau.data\n}\n\n}}",
   "dynamicBindingPathList": [
     {
       "key": "theme"
@@ -40,7 +40,7 @@
   "originalBottomRow": 13,
   "originalTopRow": 5,
   "parentColumnSpace": 6.3173828125,
-  "parentId": "f133ogba79",
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 64,
@@ -59,6 +59,6 @@
     "js": "appsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tnew Vue({\n\t\tel: \"#app\",\n\t\tdata() {\n\t\t\treturn {\n\t\t\t\tdata: appsmith.model.dataTBs,\n\t\t\t};\n\t\t},\n\t\tmethods: {\n\t\t\tnext() {\n\t\t\t\tthis.currentIndex = (this.currentIndex + 1) % this.tips.length;\n\t\t\t},\n\t\t\treset() {\n\t\t\t\tthis.currentIndex = 0;\n\t\t\t\tappsmith.triggerEvent(\"onReset\");\n\t\t\t},\n\t\t},\n\t});\n});"
   },
   "version": 1,
-  "widgetId": "ppchl43oi3",
+  "widgetId": "7735hpp37a",
   "widgetName": "Custom1"
 }
