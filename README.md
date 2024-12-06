@@ -78,6 +78,19 @@ Nếu bạn phát hiện lỗi, vui lòng tạo issue mới với:
 - Các bước tái hiện
 - Screenshots nếu có
 - Môi trường (browser, OS...)
+- 
+## 💡Nhà phát triển
+
+📧 Email: thanhtruong23111999@gmail.com 
+
+📱 Hotline: +84 376 659 652
+
+## 📞 Liên hệ
+- Lê Thanh Trường       :  <u>thanhtruong23111999@gmail.com</u>
+- Võ Văn Việt           :  <u>vietvo371@gmail.com</u>
+- Nguyễn Ngọc Duy Thái  :  <u>kkdn011@gmail.com</u>
+
+*" 🏫 DTU_DZ - DUY TAN UNIVERSITY - SCS ✨"*
 
 ## 📜 Changelog
 Xem [CHANGELOG](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CHANGELOG.md) để biết lịch sử thay đổi.
