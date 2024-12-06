@@ -25,4 +25,3 @@ Cảm ơn bạn đã quan tâm đến việc đóng góp cho dự án của chú
 ## Liên hệ
 
 - Email: thanhtruong23111999@gmail.com
-- Discussions: [GitHub Discussions](https://github.com/Truongpyeo/DTUDZ2_NhanLuc/discussions)
