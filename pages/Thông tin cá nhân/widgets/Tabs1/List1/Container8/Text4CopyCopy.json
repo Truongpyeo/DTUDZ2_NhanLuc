@@ -41,7 +41,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 48,
   "shouldTruncate": false,
   "text": "Đã {{currentItem.is_sos=== true ? \"Cứu trợ\":\"Viện trợ\" }} {{currentItem.ho_va_ten_sos || currentItem.ho_va_ten_nguoi_dung }} với nội dung: {{currentItem.noi_dung}}",
   "textAlign": "LEFT",
