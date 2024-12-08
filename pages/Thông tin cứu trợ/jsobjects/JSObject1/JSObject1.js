@@ -1,4 +1,17 @@
 export default {
+	load () {
+		const socket = new AppsmithSocket().connect()
+		socket.on("sos_response", (data) => {
+			showAlert(data.data.message, "warning")
+		})
+	}, 
+	sendSOS  () {
+		const socket = new AppsmithSocket().connect();
+		var payload = {
+			message : `${appsmith.store.ten_nhan_luc || ""}  ĐÃ XÁC YÊU CẦU CỦA BẠN VÀ ĐANG TRÊN ĐƯỜNG ĐẾN`
+		};
+		socket.emit("send_location", payload);
+	},
 	async getCurrentLoction () {
 		var location = await appsmith.geolocation.getCurrentPosition()
 		return {
@@ -51,6 +64,7 @@ export default {
 				await changeNL_False.run();
 				await getDataYeuCau.run();
 				showAlert("Đã gửi yêu cầu thành công!", "success");
+				this.sendSOS();
 			} catch (error) {
 				showAlert("Có lỗi xảy ra trong quá trình xử lý!", "error");
 				console.error(error);

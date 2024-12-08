@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_ca28004e-bacd-4fe6-a39e-c4169da3122d",
-  "id": "Cứu trợ khẩn cấp_JSObject1.getCurrentLoction",
+  "gitSyncId": "6750f4e7f0b1ed2b4a0eb691_7c3844fb-40e3-4839-b64f-fdff3bb054e0",
+  "id": "Cứu trợ khẩn cấp_JSObject1.sendSOS",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,9 +22,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "fullyQualifiedName": "JSObject1.getCurrentLoction",
-    "name": "getCurrentLoction",
+    "executeOnLoad": false,
+    "fullyQualifiedName": "JSObject1.sendSOS",
+    "name": "sendSOS",
     "pageId": "Cứu trợ khẩn cấp",
     "userSetOnLoad": false
   }

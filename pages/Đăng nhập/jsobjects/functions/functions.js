@@ -30,6 +30,7 @@ export default {
 			const [user] = await finNhanLucs.run();
 			var check = await this.comparePassword(input_pass.text, user.password);
 			storeValue("id_nhan_luc", user.id);
+			storeValue("ten_nhan_luc", user.ten_nhan_luc);
 			if(check) {
 				// user.token = await this.createToken(user)
 				// .then( async () => await UpdateToken.run(user));
