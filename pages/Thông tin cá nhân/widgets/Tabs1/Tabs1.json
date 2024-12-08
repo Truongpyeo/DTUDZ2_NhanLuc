@@ -93,7 +93,7 @@
       "rightColumn": 149.25,
       "shouldScrollContents": true,
       "tabId": "tab2",
-      "tabName": "Thông tin cứu trợ",
+      "tabName": "Lịch sử",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -149,7 +149,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "Thông tin cứu trợ",
+      "label": "Lịch sử",
       "positioning": "vertical",
       "widgetId": "tpoqzd9bom"
     }

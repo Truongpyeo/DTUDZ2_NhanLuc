@@ -117,15 +117,6 @@
       "key": "schema.__root_schema__.children.ten_loai_nguon_luc.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.ten_nhan_luc.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.ten_nhan_luc.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.ten_nhan_luc.borderRadius"
-    },
-    {
       "key": "schema.__root_schema__.children.so_dien_thoai.defaultValue"
     },
     {
@@ -178,6 +169,15 @@
     },
     {
       "key": "schema.__root_schema__.children.ten_nha_tai_tro.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.ten_nhan_luc.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ten_nhan_luc.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ten_nhan_luc.accentColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -403,11 +403,11 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Họ và Tên",
+          "label": "Ten Nhan Luc",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "ten_nhan_luc",
-          "position": 2,
-          "sourceData": "Nhóm cứu trợ 1"
+          "position": 7,
+          "sourceData": "Nhân Lực J"
         }
       },
       "dataType": "object",

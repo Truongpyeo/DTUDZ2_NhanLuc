@@ -41,7 +41,7 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 40,
   "shouldTruncate": false,
   "text": "{{currentItem.dia_chi_sos}}",
   "textAlign": "LEFT",
