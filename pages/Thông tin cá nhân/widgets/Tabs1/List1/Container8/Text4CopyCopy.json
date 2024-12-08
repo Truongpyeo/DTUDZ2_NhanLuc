@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "{{currentItem.trang_thai ===\" Đã xong\"? \"Đã\": \"\"}} {{currentItem.is_sos=== true ? \"Cứu trợ\":\"Viện trợ\" }} {{currentItem.ho_va_ten_sos || currentItem.ho_va_ten_nguoi_dung }} với nội dung: {{currentItem.noi_dung}}",
+  "text": "{{currentItem.trang_thai ===\" Đã xong\"? \"Đã\": \"\"}} {{currentItem.ho_va_ten_sos || currentItem.ho_va_ten_nguoi_dung }} với nội dung: {{currentItem.noi_dung}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 5,

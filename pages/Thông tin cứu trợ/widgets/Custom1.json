@@ -3,7 +3,7 @@
   "borderColor": "#f4f4f5",
   "borderRadius": "0px",
   "borderWidth": "0",
-  "bottomRow": 10,
+  "bottomRow": 9,
   "boxShadow": "none",
   "defaultModel": "{{ \n\n{\n\tdataTBs: getDataYeuCau.data\n}\n\n}}",
   "dynamicBindingPathList": [
@@ -51,7 +51,7 @@
     "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction MarqueeWidget() {\n  const [data, setData] = React.useState(appsmith.model.dataTBs || []);\n  React.useEffect(() => {\n    appsmith.onModelChange((model, prevModel) => {\n      if (JSON.stringify(model.dataTBs) !== JSON.stringify(prevModel?.dataTBs)) {\n        setData(model.dataTBs);\n      }\n    });\n  }, []);\n  const marqueeText = data.map(item => /*#__PURE__*/React.createElement(\"span\", {\n    key: item.id\n  }, /*#__PURE__*/React.createElement(\"span\", {\n    className: \"icon-danger\"\n  }, \"\\u26A0\\uFE0F\"), item.ho_va_ten, \": \", item.noi_dung)).reduce((prev, curr) => [prev, ' | ', curr]);\n  return /*#__PURE__*/React.createElement(\"div\", {\n    id: \"marquee\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"marquee-content\"\n  }, marqueeText));\n}\nappsmith.onReady(() => {\n  ReactDOM.render( /*#__PURE__*/React.createElement(MarqueeWidget, null), document.getElementById('root'));\n});"
   },
   "theme": "{{appsmith.theme}}",
-  "topRow": 5,
+  "topRow": 4,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
     "css": "#marquee {\n    width: 100%;\n    overflow: hidden;\n    white-space: nowrap;\n    box-sizing: border-box;\n    padding: 10px 0;\n    background-color: #f0f0f0;\n    color: #333;\n    font-size: 1.2em;\n    border-radius: 5px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.marquee-content {\n    display: inline-block;\n    padding-left: 100%;\n    animation: marquee 15s linear infinite;\n}\n\n@keyframes marquee {\n    from { transform: translateX(0); }\n    to { transform: translateX(-100%); }\n}\n\n.icon-danger {\n    color: red;\n    margin-right: 5px;\n}",

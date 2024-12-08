@@ -8,7 +8,8 @@ export default {
 	sendSOS  () {
 		const socket = new AppsmithSocket().connect();
 		var payload = {
-			message : `${appsmith.store.ten_nhan_luc || ""}  ĐÃ XÁC YÊU CẦU CỦA BẠN VÀ ĐANG TRÊN ĐƯỜNG ĐẾN`
+			message     : `${appsmith.store.ten_nhan_luc } ĐÃ XÁC YÊU CẦU CỦA BẠN VÀ ĐANG TRÊN ĐƯỜNG ĐẾN`,
+			check_sos			: List1.triggeredItem.id
 		};
 		socket.emit("send_location", payload);
 	},
