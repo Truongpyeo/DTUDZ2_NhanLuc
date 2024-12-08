@@ -22,7 +22,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject1.getCurrentLoction",
     "name": "getCurrentLoction",
     "pageId": "Cứu trợ khẩn cấp",

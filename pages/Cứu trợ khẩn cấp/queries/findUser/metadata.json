@@ -100,7 +100,7 @@
         "key": "formData.find.query.data"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "findUser",
     "pageId": "Cứu trợ khẩn cấp",
     "userSetOnLoad": false

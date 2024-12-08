@@ -96,7 +96,7 @@
       "pluginId": "mongo-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "getDataThongBaos",
     "pageId": "Cứu trợ khẩn cấp",
     "userSetOnLoad": false
