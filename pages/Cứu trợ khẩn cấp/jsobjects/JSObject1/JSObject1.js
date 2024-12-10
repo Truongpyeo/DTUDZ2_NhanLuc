@@ -9,7 +9,7 @@ export default {
 		const socket = new AppsmithSocket().connect();
 		var payload = {
 			message     : `${appsmith.store.ten_nhan_luc || "" } ĐÃ XÁC YÊU CẦU CỦA BẠN VÀ ĐANG TRÊN ĐƯỜNG ĐẾN`,
-			check_sos			: List1.triggeredItem.id
+			check_sos			: List1.selectedItem.id
 		};
 		socket.emit("send_location", payload);
 	},
